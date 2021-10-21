@@ -1,0 +1,372 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+.appbar{
+  height: 66px;
+  background-color: rgba(248, 241, 241, 0.932) !important;
+  box-shadow: 0px 1px 9px #e2e2e2 !important
+}
+/* .youtube p{
+  width: 21%;
+    position: relative;
+    bottom: 52px;
+    left: 41px;
+} */
+
+.search{
+  width: 53%;
+  height: 42px;
+  position: relative;
+  left: 20%;
+  bottom: -15px;
+}
+
+.fa-search{
+  position: relative;
+  left: 275px;
+  top: 16px;
+  color: black;
+}
+
+
+.login{
+  position: relative;
+    /* height: 33px; */
+    bottom: 25px;
+    left: 87%;
+}
+.login button{
+  width: 85px;
+    height: 38px;
+    font-size: large;
+}
+
+.MuiDrawer-paper {
+  top: 0;
+  /* flex: 1 0 auto; */
+  height: 100% !important;
+  display: flex;
+  outline: 0;
+  z-index: 1100;
+  position: fixed !important;
+  overflow-y: none !important;
+  flex-direction: column;
+}
+.makeStyles-drawerPaper-6 {
+  width: 213px;
+}
+.makeStyles-toolbar-5 {
+   min-height: 0px !important; 
+}
+.MuiIconButton-edgeStart {
+  margin-left: 7px !important;
+}
+/* @media (min-width: 0px) and (orientation: landscape)
+
+.makeStyles-toolbar-27 {
+    /* min-height: 48px; */
+
+.makeStyles-toolbar-27 {
+  min-height: 0px !important;
+}
+.youtube{
+  position: relative;
+    bottom: 34px;
+    left: 63px;
+    font-size: large;
+    font-weight: bolder;
+    font-family: ui-sans-serif;
+}
+.explore{
+  width: 85%;
+    height: 154px;
+    top: 68px;
+    position: relative;
+    left: 212px;
+    background-color: #e7f6f7;
+    color: black;
+}
+/* .explore-list{
+  margin: 2px;
+} */
+.explore-list ul{
+  display:  flex;
+  
+ 
+}
+.explore-list ul li{
+  margin: 40px;
+  
+}
+.home-div{
+  width: 85%;
+    top: 70px;
+    left: 212px;
+    position: relative;
+    background-color: rgb(255 255 255);
+}
+.section-div{
+  display: flex;
+    flex-wrap: wrap;
+    padding: 4px;
+}
+.homepage-img{
+  height: 162px;
+    width: 95%;
+}
+.each-item-div{
+  width: 25%;
+    height: 248px;
+    padding: 14px;
+    margin: 0px;
+    position: relative;
+    top: 0px;
+    text-decoration: none;
+    color: black;
+}
+.makeStyles-drawerPaper-6 {
+  width: 211px !important
+}
+
+.explore-list ul{
+  list-style: none;
+}
+.explore-list ul li{
+  margin: 127px;
+  position: relative;
+  top: -82px;
+  font-size: large;
+}
+/* .video-item{
+  position: relative;
+    left: 228px;
+    top: 68px;
+  
+} */
+.category{
+  color: black;
+}
+.MuiTypography-displayBlock {
+  display: block;
+  color: black !important;
+  text-decoration: none;
+}
+
+.related-videos-div{
+  display: flex;
+    justify-content: space-between;
+}
+.related-videos-section{
+  width: 27%;
+}
+.details-iframe-div{
+  width: 53%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 254px;
+    top: 78px;
+}
+
+.related-videos{
+  position: relative;
+  top: 81px;
+
+}
+.details-video{
+  position: relative;
+    left: 0px;
+    top: 7px;
+}
+.details-video span{
+  width: 200px;
+}
+
+.trending-item-div{
+  display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 214px;
+    top: 20px;
+}
+.trending-item-div div{
+  height: 267px;
+    width: 343px;
+}
+.fa-thumbs-up{
+  color: black;
+  size: 2px;
+}
+.like-elements{
+  display: flex;
+  position: relative;
+  left: 601px;
+  bottom: 106px;
+  width: 206px;
+  justify-content: space-around;
+}
+.subscribe-btn{
+  position: relative;
+    left: 701px;
+    bottom: 83px;
+}
+.subscribe-btn button{
+  height: 27px;
+    width: 100px;
+    font-size: initial;
+    background: #f43f3f;
+    border: none;
+}
+.video-title-date{
+  width: 530px;
+}
+.video-title-date i{
+  position: relative;
+  left: 162px;
+  bottom: 33px;
+}
+.comments-div{
+  width: 819px;
+}
+
+.comments-ul{
+  list-style: none;
+}
+.comments-ul li{
+  margin: 12px;
+}
+.author-name{
+  font-weight: 600;
+}
+.comments-li{
+  display: flex;
+}
+.channel-title{
+  position: relative;
+  left: 13px;
+  /* top: 63px; */
+}
+.channel-title li{
+  margin: 5px;
+  list-style: none;
+  color: black;
+}
+.channel-title a{
+color: black;
+font-weight: bold;
+/* color: #FFFFFF; */
+text-decoration: none;
+}
+.company{
+  position: relative;
+  top: 20px;
+}
+.subs-div-1{
+  position: relative;
+  left: 281px;
+  top: 80px;
+}
+.searched-items{
+  position: relative;
+  /* display: block; */
+  left: 289px;
+  top: 96px;
+}
+.searched-items div{
+  color: black;
+}
+.category {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .home-div{
+    width: 66%;
+    top: 70px;
+    left: 124px;
+    position: relative;
+    background-color: rgb(255 255 255);
+  }
+  .section-div{
+    display: flex !important;
+    flex-direction: column !important;
+    /* background-color: brown; */
+  }
+
+  .each-item-div{
+    width: 83%;
+    display: flex;
+    justify-content: center;
+    height: 248px;
+    padding: 14px;
+    margin: 0px;
+    position: relative;
+    top: 0px;
+    text-decoration: none;
+    color: black;
+  }
+  .homepage-img {
+    height: 130px;
+    width: 84%;
+}
+  .details-iframe-div{
+    width: 131%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 254px;
+    top: 78px;
+  }
+  .iframe-div{
+    height: 353 !important;
+    width: 500 !important;
+  }
+  .details-video {
+    position: relative;
+    width: 507px;
+    left: 0px;
+    top: -378px;
+}
+.video-title-date {
+  width: 307px;
+}
+.like-elements {
+  display: flex;
+  position: relative;
+  left: 310px;
+  bottom: 106px;
+  width: 206px;
+  justify-content: space-around;
+}
+.subscribe-btn {
+  position: relative;
+  left: 394px;
+  bottom: 83px;
+}
+.search {
+  width: 48%;
+  height: 26px;
+  position: relative;
+  left: 31%;
+  bottom: -23px;
+}
+.fa-search {
+  position: relative;
+  left: 96px;
+  top: 23px;
+  color: black;
+}
+.login {
+  position: relative;
+  /* height: 33px; */
+  bottom: 1px;
+  left: 86%;
+}
+.login button {
+  width: 47px;
+  height: 21px;
+  font-size: small;
+}
+.history-page-img{
+  height: 200px;
+  width: 300px;
+}
+}
